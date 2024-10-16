@@ -55,7 +55,7 @@ def main():
 
     # User input for subreddit and query
     subreddit_name = st.text_input("Enter subreddit name", "all")
-    query = st.text_input("Enter search query", "AWS is the best")
+    query = st.text_input("Enter search query", "datadog")
     
     # Number of posts to fetch
     post_limit = st.slider("Number of posts to fetch", min_value=1, max_value=100, value=5)
