@@ -1,6 +1,4 @@
 bs4
 requests
 streamlit
-regex
-secure-smtplib
 praw
