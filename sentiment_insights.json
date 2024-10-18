@@ -5,91 +5,117 @@
         "url": "https://www.reddit.com/r/jamf/comments/1al696m/what_can_jamf_see/",
         "subreddit": "jamf",
         "body": "So my company is installing JAMF on our macs, will it be able to see projects I'm working on in Figma or Illustrator...and be able to view my passwords to iCloud, my banking and such should I log into them?",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Review lacks actionable insights and relevance.",
+        "created": "2024-02-07 16:01:01"
     },
     {
         "author": "excoriator",
         "url": "https://reddit.com/r/jamf/comments/1al696m/what_can_jamf_see/kpchw5f/",
         "body": "You have more to fear from the security software the company installs than you do from Jamf Pro. Out of the box, the most incriminating thing it can see are how many hours a given application was used on the computer on a given day.\n\nIf you're using your work computer to run some application that your employer shouldn't see, that will be recorded. It's not really paying attention to files.",
         "subreddit": "jamf",
-        "insight": "0"
+        "useful": "1",
+        "insight": " Review discusses potential privacy concerns with security software, not providing insights on Jamf's pricing, usability, features, or comparisons.",
+        "created": "2024-02-07 16:11:12"
     },
     {
         "author": "markkenny",
         "url": "https://reddit.com/r/jamf/comments/1al696m/what_can_jamf_see/kpd6165/",
         "body": "Jamf cannot. But Jamf can install the applications that can do almost all this. Apart from seeing iCloud or any passwords. And screen sharing, whatever software they install, you will need to allow permission, we cannot capture screen, camera or audio, user has to accept.\n\nYou should ask what applications they are installing.",
         "subreddit": "jamf",
-        "insight": "0"
+        "useful": "1",
+        "insight": " Review lacks actionable insights or relevance.",
+        "created": "2024-02-07 18:25:55"
     },
     {
         "author": "Casterly",
         "url": "https://reddit.com/r/jamf/comments/1al696m/what_can_jamf_see/kpcxnoh/",
         "body": "I\u2019m highly annoyed by the answers you\u2019re getting that aren\u2019t answering your simple question and instead are engaging in self-satisfied IT condescensions.\n\nNo, Jamf can\u2019t see those things you\u2019re worried about. If you\u2019re working in Illustrator, to use your example, they will only see that you were using illustrator at the time you used it. They CAN see your file system, but they can\u2019t go in and open up an Illustrator project to look at it or anything like that. \n\nYour passwords are safe, they can\u2019t see what they are. But if your company is installing this stuff you might want to start using a password manager if you aren\u2019t already if you want extra security. If you\u2019re saving your passwords in a browser on a work machine, that would be more of a concern than anything jamf can do when it comes to your passwords.\n\nThey can\u2019t see your banking, etc. It\u2019s not an active monitoring software (as in: no one can just see your screen whenever they wish, only a timeline of general actions). It\u2019s made to give IT a general idea of what your machine has been running, not exactly what it is you\u2019re doing in those programs.",
         "subreddit": "jamf",
-        "insight": "0"
+        "useful": "1",
+        "insight": "The review discusses Jamf's limitations in monitoring software usage without providing insights on pricing, usability, features, or comparisons with competitors.",
+        "created": "2024-02-07 17:39:36"
     },
     {
         "author": "alephthirteen",
         "url": "https://reddit.com/r/jamf/comments/1al696m/what_can_jamf_see/kpe1uw8/",
         "body": "Passwords - They don't *want* to know your bank password.\n\nBanking info - See above, possibly including legal reasons they don't want that info.\n\niCloud contents - If the files are synced to your Mac's desktop, then the software sees them as being on the Mac desktop, as if they were local.\n\nSeeing the names of what files are on your machine - Potentially, depending on what else is added besides Jamf.\n\nSeeing what's *in* those files - Maaaaaybe, at request, as part of a process. But I would agree with others here that it's unlikely, unless HR or Legal Dept or whoever says.\n\nDetecting if you plug in an external drive - Yes, in terms of knowing if it happened. Viruses and malware being on USB Drives is a pretty common approach, so security software is often tasked to detect/block/manage the use of external flash drives.\n\n&#x200B;\n\nThe way I would treat it is that anything on the computer *could* be viewed, if it became really important to the company to do dig it up. If they're showing you a printout and it's something that you could not possibly explain to your boss and keep your job...\n\nIf they really really really needed to know what the banner you made for your niece in Illustrator on your lunch break looked like, they could probably get to that. Someone would go digging. And as a longtime IT person, that's a thing that happens because our boss told us to. Period. We're busy, not bored. And we don't want to get in trouble, so we don't poke around for giggles.\n\nI would encourage you not to save passwords, tie the computer to your personal iCloud, etc. That's comingling data that neither party wants commingled. If nothing else, chances that **you** gets compromised goes up, because it's way more likely someone is targeting Acme Inc. than you personally on your home computer. And now your identity info is caught up as collateral.\n\nNow, I'm not an HR person. Your employee handbook could have rules that are way stricter than the technical stuff. If I were you, I'd follow the strictest set of rules, to protect yourself professionally.",
         "subreddit": "jamf",
-        "insight": "1"
+        "useful": "1",
+        "insight": " The review discusses potential data privacy concerns related to Jamf's capabilities without providing specific insights on pricing, usability, features, or competitor comparisons.",
+        "created": "2024-02-07 21:22:08"
     },
     {
         "author": "MacAdminInTraning",
         "url": "https://reddit.com/r/jamf/comments/1al696m/what_can_jamf_see/kpf44aq/",
         "body": "Jamf is a Management tool, not a monitoring tool. If these are corporate owned devices, you really have no say in the matter. I would not enroll a personal device in to Jamf. Either way this is a conversation you need to have with your IT department.",
         "subreddit": "jamf",
-        "insight": "1"
+        "useful": "1",
+        "insight": " Review is off-topic and lacks actionable insights related to pricing, usability, features, or comparisons with competitors.",
+        "created": "2024-02-08 01:12:42"
     },
     {
         "author": "Just-Table-6924",
         "url": "https://reddit.com/r/jamf/comments/1al696m/what_can_jamf_see/lqpjxpu/",
         "body": "My company did this as well and when they laid people off. They wanted access to the file fault and a \"enable function\" popped up on my screen upon login. we don't feel comfortable giving them access especially because some of us also have personal files on the computer since we use the laptop when we are on the road and stuff. What do you suggest we do they're lowballing us on severance package and one-sided contract terms that are all favorable to the organization. \n\n  \nHow would one circumvent JAMF to ensure that their data is removed from the computer without giving the organization access to the file vault first? Would this also mean they can delete whatever of the computer to protect themselves from law suits?",
         "subreddit": "jamf",
-        "insight": "1"
+        "useful": "1",
+        "insight": "The review does not provide insights on Jamf's pricing, usability, features, or comparisons with competitors.",
+        "created": "2024-10-07 01:12:46"
     },
     {
         "author": "Ramblingmac",
         "url": "https://reddit.com/r/jamf/comments/1al696m/what_can_jamf_see/kpcy3n1/",
         "body": "All of that is going to be business specific.\n\nJAMF is an automation and management tool; it dives into the heart of the machine; and can install other tools. \n\nOut of the box it gathers primarily information about the machine and programs installed. \n\nBetween clever custom controls and the ability to remotely install most any program, there\u2019s not much a dedicated and resourceful company can\u2019t view.\n\nWill it be set up that way? Almost certainly not. Your company is unlikely to care about gathering your banking data much less actually reviewing it. In fact, they actively have an interest in not doing so.\n\nBut you also probably have a legal disclaimer somewhere in your handbook or even every time you login reminding you that you have zero expectation of privacy on a company machine.\n\nDon\u2019t want work to have your private information? Don\u2019t let the streams cross. \nNever handle non work things on a work machine, never get internet on a personal device through a work network, or view work related items on a personal device.",
         "subreddit": "jamf",
-        "insight": "1"
+        "useful": "1",
+        "insight": " The review discusses general data privacy concerns and practices without providing specific insights on Jamf's pricing, usability, features, or comparisons with competitors.",
+        "created": "2024-02-07 17:42:03"
     },
     {
         "author": "seburritovr",
         "url": "https://reddit.com/r/jamf/comments/1al696m/what_can_jamf_see/lpg64vr/",
         "body": "my school made us buy iPads and turn them into school iPads with jamf and they said it\u2019s now their property.",
         "subreddit": "jamf",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Review lacks actionable insights or relevance.",
+        "created": "2024-09-29 04:51:43"
     },
     {
         "author": "Casterly",
         "url": "https://reddit.com/r/jamf/comments/1al696m/what_can_jamf_see/kpd3y61/",
         "body": "That\u2019s a different issue you\u2019d want to talk to your IT about. Some places have security concerns about external devices being used on work machines. Jamf provides options to restrict usage of external drives, but generally it\u2019s not going to go poking around in your external drive unless it runs an inventory scan (which is entirely up to your IT dept as to when/if they run those) while one is connected, or unless you\u2019re running applications from it.",
         "subreddit": "jamf",
-        "insight": "0"
+        "useful": "1",
+        "insight": "Review discusses security concerns about external devices and how Jamf handles them.",
+        "created": "2024-02-07 18:14:25"
     },
     {
         "author": "excoriator",
         "url": "https://reddit.com/r/jamf/comments/1al696m/what_can_jamf_see/lqpl1f8/",
         "body": "Jamf Pro probably has the key to unlock FileVault and can\u2019t be removed by someone without administrator rights, if they\u2019re managing the computer well. You shouldn\u2019t be keeping files on your employer\u2019s computer that you don\u2019t want them to access. Best advice is to get the files off of there before you give it back.",
         "subreddit": "jamf",
-        "insight": "1"
+        "useful": "1",
+        "insight": " Review lacks actionable insights or relevance to Jamf's pricing, usability, features, or comparisons with competitors.",
+        "created": "2024-10-07 01:20:03"
     },
     {
         "author": "Ewalk",
         "url": "https://reddit.com/r/jamf/comments/1al696m/what_can_jamf_see/kpcszlp/",
         "body": "Assume it\u2019s recorded, but not by Jamf. It\u2019s usually saved and checked when they have a reason to.",
         "subreddit": "jamf",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Review discusses data recording practices not related to Jamf.",
+        "created": "2024-02-07 17:13:42"
     },
     {
         "author": "slykido999",
         "url": "https://reddit.com/r/jamf/comments/1al696m/what_can_jamf_see/kpcur65/",
         "body": "This. If you\u2019re opening restricted items it\u2019ll log that. But it\u2019s the security programs that are more looking for that vs Jamf Pro. And again, they\u2019re looking for patterns or if you\u2019ve already done something bad and they have to look back on what you did",
         "subreddit": "jamf",
-        "insight": "1"
+        "useful": "1",
+        "insight": " The review does not provide any actionable insights related to Jamf's pricing, usability, features, or comparisons with competitors.",
+        "created": "2024-02-07 17:23:31"
     },
     {
         "title": "Major change in company IT and suddenly I got Apple Business Manager and Jamf access. Now what to do?",
@@ -97,147 +123,189 @@
         "url": "https://www.reddit.com/r/sysadmin/comments/1dj6efk/major_change_in_company_it_and_suddenly_i_got/",
         "subreddit": "sysadmin",
         "body": "Due to major restructuring in my company's IT, most of our 2nd and 3rd level was let go. Suddenly I got bestowed with access to Apple Business Manager and Jamf. \n\n\nAs a Windows person in my entire 30 years of life. I have pretty good knowledge on maintaining Windows PCs/laptops and servers. However, my knowledge of Mac devices is quite limited.\n\n As my company is home of about 300+ macs fleet, I need advice on:\n\n1. Where I can find the best resource to learn both Apple Business Manager and Jamf?\n2. What is the first things that I need to check on both Apple Business Manager and Jamf?\n\nFortunately, I got a spare 2018 Intel macbook pro that I can use to familiarize myself with Mac environment and kickstart this opportunity to learn the brave new world that is Mac Administration! Any advice and pointers is very utmost welcome. Thanks in advance r/Sysadmin!",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Seeking advice on learning resources for Apple Business Manager and Jamf.",
+        "created": "2024-06-19 00:47:24"
     },
     {
         "author": "AggieITGuy",
         "url": "https://reddit.com/r/sysadmin/comments/1dj6efk/major_change_in_company_it_and_suddenly_i_got/l98tbug/",
         "body": "Find out which Apple account was used to generate the APNS cert used in your Jamf server and make sure you\u2019ve got reminders set up to renew this each year. Google \u201cRenewing an Apple Push Notification certificate in Jamf Pro\u201d for a video tutorial on the process. If this cert expires, you\u2019re looking at potentially having to re-enroll your whole fleet in Jamf. \n\nAlso check out open source projects like installomator, nudge, and superman for helping with software and OS patching. Plenty of tutorials on using these with Jamf.",
         "subreddit": "sysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": "Review lacks actionable insights on pricing, usability, features, or competitors, and discusses unrelated topics like Apple account management and open source projects.",
+        "created": "2024-06-19 01:20:32"
     },
     {
         "author": "Altern3rd",
         "url": "https://reddit.com/r/sysadmin/comments/1dj6efk/major_change_in_company_it_and_suddenly_i_got/l98rnhc/",
         "body": "Jamf has a great tutorials section on their own web page (learn.jamf.com) and there are many YouTube videos from 3rd parties as to how to manage it. I'm my it departments Jamf SME, but prior to Jamf we were just using Apple's inbuilt mdm software which was hellish. \n\nIt's essentially:\nProfiles=Fixed Configurations(similar to GPO's)\nPolicies=actions (scripts, one time setting changes, refreshes, etc)",
         "subreddit": "sysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": "Review mentions tutorials and YouTube videos for learning Jamf, compares it to Apple's MDM software, and provides a brief overview of Profiles and Policies.",
+        "created": "2024-06-19 01:08:55"
     },
     {
         "author": "c0v3n4n7",
         "url": "https://reddit.com/r/sysadmin/comments/1dj6efk/major_change_in_company_it_and_suddenly_i_got/l99zbjs/",
         "body": "If you jump into this new challenge with an open mind , you will find out that JAMF is awesome and you will end up wishing that Intune had a 3rd of it's potential.",
         "subreddit": "sysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": "General praise for Jamf and comparison to Intune without specific insights.",
+        "created": "2024-06-19 07:25:04"
     },
     {
         "author": "Cozmo85",
         "url": "https://reddit.com/r/sysadmin/comments/1dj6efk/major_change_in_company_it_and_suddenly_i_got/l98rtb9/",
         "body": "Apple training https://training.apple.com/it\n\nJamf https://www.jamf.com/training/online-training/100/",
         "subreddit": "sysadmin",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Off-topic discussion about Apple training website with no relevant insights on Jamf.",
+        "created": "2024-06-19 01:10:02"
     },
     {
         "author": "981flacht6",
         "url": "https://reddit.com/r/sysadmin/comments/1dj6efk/major_change_in_company_it_and_suddenly_i_got/l99u6dk/",
         "body": "Macadmins Slack is the place to go. Getting a 2018 spare Macbook is a bit of a bad sign but I do recommend reaching out to Apple Enterprise and JAMF directly. Ask for a health check through JAMF and let Customer Success guide you - your company is paying a lot in license fees yearly and they are happy to help.\n\nHaving ABM and JAMF in place is a good start hopefully it's setup correctly.",
         "subreddit": "sysadmin",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Review lacks actionable insights or relevance.",
+        "created": "2024-06-19 06:27:08"
     },
     {
         "author": "the_iron_pepper",
         "url": "https://reddit.com/r/sysadmin/comments/1dj6efk/major_change_in_company_it_and_suddenly_i_got/l9ajaqa/",
         "body": "I believe the Jamf 100 coursework is free. Jamf 100 and 200 are your best bet. Apple Business Manager is just a UI that connects your Apple endpoints to your management platform (Jamf), it's not difficult.",
         "subreddit": "sysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": " Review lacks actionable insights or relevance.",
+        "created": "2024-06-19 11:15:37"
     },
     {
         "author": "Mister_Brevity",
         "url": "https://reddit.com/r/sysadmin/comments/1dj6efk/major_change_in_company_it_and_suddenly_i_got/l99kkrs/",
         "body": "Apples documentation for abm is pretty good, and jamfs documentation and training are also pretty good",
         "subreddit": "sysadmin",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Positive feedback on Jamf's documentation and training without actionable insights.",
+        "created": "2024-06-19 04:49:32"
     },
     {
         "author": "PlatJC",
         "url": "https://reddit.com/r/sysadmin/comments/1dj6efk/major_change_in_company_it_and_suddenly_i_got/l99rmff/",
         "body": "Ask your company to put you through the Apple Consultancy. You\u2019ll get access to Apple Seed Vault that has some good training on MDM. There\u2019s plenty of JAMF training material out there too.",
         "subreddit": "sysadmin",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Off-topic suggestion for accessing Apple Consultancy and training materials, no specific insights on Jamf mentioned.",
+        "created": "2024-06-19 05:59:40"
     },
     {
         "author": "escadan397",
         "url": "https://reddit.com/r/sysadmin/comments/1dj6efk/major_change_in_company_it_and_suddenly_i_got/l99neq1/",
         "body": "Try to give it to someone else. \n\nOn a serious note- try to find the APNs cert expiration date. I don't use JAMF (we're a WS1 customer), so I can't tell you where to look, but Google it, make note of it, and make sure you have access to the email address it's registered too.",
         "subreddit": "sysadmin",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Review lacks relevance as it discusses finding APNs cert expiration date for JAMF without providing insights on pricing, usability, features, or comparisons with competitors.",
+        "created": "2024-06-19 05:16:46"
     },
     {
         "author": "AtLeast37Goats",
         "url": "https://reddit.com/r/sysadmin/comments/1dj6efk/major_change_in_company_it_and_suddenly_i_got/l9akj30/",
         "body": "In jamf on the left nav bar go to organization at the bottom. \n\nIn there are some of the most important options. Such as Apple push notification cert and other things. Find out what Apple ID renews those. Set reminders. You do not want those to expire. \n\nSecond check what accounts were used to manage. Find out in ABM if they are tied to a phone number. It\u2019s a bit tough to get phone numbers removed from managed Apple ids, but it\u2019s doable. \n\nLots of resources online. But see if we can work with an Apple engineer or someone from half to review config. They\u2019re usually pretty available to help out and can set up weekly meetings.",
         "subreddit": "sysadmin",
-        "insight": "1"
+        "useful": "1",
+        "insight": "The review provides detailed instructions on managing Apple IDs and accounts within Jamf, suggesting reaching out to Apple engineers for configuration review and assistance, but lacks insights on pricing, usability, features, or competitor comparisons.",
+        "created": "2024-06-19 11:26:55"
     },
     {
         "author": "Rocknbob69",
         "url": "https://reddit.com/r/sysadmin/comments/1dj6efk/major_change_in_company_it_and_suddenly_i_got/l9aok5r/",
         "body": "Jamf has a lot of training resources and their support is also pretty decent. I don't use it to nearly all of its capabilities, but I only manage iPads.",
         "subreddit": "sysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": "Review lacks actionable insights on pricing, usability, features, or comparisons with competitors.",
+        "created": "2024-06-19 12:01:36"
     },
     {
         "author": "tehinterwebs56",
         "url": "https://reddit.com/r/sysadmin/comments/1dj6efk/major_change_in_company_it_and_suddenly_i_got/l9b0hdr/",
         "body": "Jamf nation is your best resource. \nGet on the Jamf courses Jamf 100 is free and 200,300 is a must if you will be looking after it. \n\nIf you have slack get on the macadmins slack channel as that\u2019s is a wealth of information. \n\nRemember, apple does some weird shit, its take time to come around to their weird ways but Jamf makes it easier to navigate. \n\nDon\u2019t get sucked in to \u201cintune can do it all\u201d with Mac, you\u2019ll be in for a world of hurt. lol.",
         "subreddit": "sysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": " The review discusses the benefits of Jamf Nation, Jamf courses, MacAdmins Slack channel, navigating Apple's methods with Jamf, and advises against using Intune for Mac, without providing specific insights on pricing, usability, features, or competitor comparisons.",
+        "created": "2024-06-19 13:29:29"
     },
     {
         "author": "1337Vader",
         "url": "https://reddit.com/r/sysadmin/comments/1dj6efk/major_change_in_company_it_and_suddenly_i_got/l9cy8z9/",
         "body": "1. Both platforms have adequate documentation on their respective sites (Apple, JAMF)\n\n2. Check the Push Notification certificate - which account made/maintains it, when it expires.",
         "subreddit": "sysadmin",
-        "insight": "1. 1\n2. 1"
+        "useful": "1",
+        "insight": "Both platforms have adequate documentation but lacks actionable insights or relevance.",
+        "created": "2024-06-19 20:09:43"
     },
     {
         "author": "Talenus",
         "url": "https://reddit.com/r/sysadmin/comments/1dj6efk/major_change_in_company_it_and_suddenly_i_got/l9dx0q8/",
         "body": "Go take the JAMF classes and get JAMF certified on as much as you can.\n\nThere really is no good learning space for Apple School Manager. I can tell you, I hate everything about it. \n\nAlso, be prepared for Apple to completely change how they do everything every few years. It's a roller coaster. \n\nA mixed Apple/PC environment is rough for the backend of things. Apple wants everything to be 1:1 user/device. Their devices are NOT Enterpeise friendly, and despite their historical position, Apple seems to hate the education and enterprise enviroments. JAMF is there to help you wrangle Apple devices into compliance.  \n\nI was \"The Mac guy\" in my IT shop for 10 years. \n\nThe best advice I have is....save your company an ENORMOUS amount of money and ditch Apple. The devices are over-priced, and you need a 3rd party MDM to make them compliant, which is also a cost expenditure. You also expend an inordinate amount of time maintaining and enforcing polices on staff that won't like how it much it locks down their Apple devices. \n\nLastly....good luck.",
         "subreddit": "sysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": "The review provides a negative outlook on Apple devices in enterprise environments, suggesting they are expensive, difficult to manage, and not user-friendly, ultimately recommending to avoid them and switch to a different platform.",
+        "created": "2024-06-19 23:42:22"
     },
     {
         "author": "miketerrizzi",
         "url": "https://reddit.com/r/sysadmin/comments/1dj6efk/major_change_in_company_it_and_suddenly_i_got/l9oufuq/",
         "body": "Jamf or jamf now",
         "subreddit": "sysadmin",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Review lacks actionable insights or relevance.",
+        "created": "2024-06-21 23:25:26"
     },
     {
         "author": "Xibby",
         "url": "https://reddit.com/r/sysadmin/comments/1dj6efk/major_change_in_company_it_and_suddenly_i_got/l98sqhp/",
         "body": "Learn how to use JAMF to install PowerShell Core on all the Macs and keep on scripting.",
         "subreddit": "sysadmin",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Review lacks actionable insights on pricing, usability, features, or comparisons with competitors.",
+        "created": "2024-06-19 01:16:27"
     },
     {
         "author": "belgarion90",
         "url": "https://reddit.com/r/sysadmin/comments/1dj6efk/major_change_in_company_it_and_suddenly_i_got/l9b5si0/",
         "body": "The Jamf training is really pretty good. The 200 course is easily worth the week and $2500.",
         "subreddit": "sysadmin",
-        "insight": "0"
+        "useful": "0",
+        "insight": " Positive feedback on the quality and value of Jamf training.",
+        "created": "2024-06-19 14:03:53"
     },
     {
         "author": "FoxtrotWhiskyTango",
         "url": "https://reddit.com/r/sysadmin/comments/1dj6efk/major_change_in_company_it_and_suddenly_i_got/l9a1kjq/",
         "body": "On more positive note, our mac fleet is usually about 2-3 years old and we only replace devices that close to 5 years old. My macbook here usually used for testing purposes. Our late Mac specialist really did a great job putting things on the ABM and Jamf and left us with significant notes on lots of stuff.\n\n  \nI'm not really into the political office stuff but our 2nd-3rd was definitely let go because cost issue and they want to move the 2nd-3rd level to another Country (still EU, but somewhere cheaper). I call it BS all of them specialist really did their job making everything is top notch and always teaching us to make sure a lot of stuff is  handled by first level. Us firstliners is definitely overseas outside from EU but we are really thankful for those 2nd-3rd levels since they are letting us to learn and let us handle some complex stuff so it can be resolved on first level. \n\n  \nThat being said, my manager said we might need to manouvering so we have reason instead of completely moving the 2nd-3rd level to another country, they should promote us since management also willing to enroll us in courses where our 2nd-3rd level recommends that we take those courses.",
         "subreddit": "sysadmin",
-        "insight": "1"
+        "useful": "1",
+        "insight": "The review lacks actionable insights about Jamf's pricing, usability, features, or comparisons with competitors.",
+        "created": "2024-06-19 07:52:03"
     },
     {
         "author": "Cozmo85",
         "url": "https://reddit.com/r/sysadmin/comments/1dj6efk/major_change_in_company_it_and_suddenly_i_got/l9bp1s2/",
         "body": "Apple may comp the jamf100 test also. They did for us",
         "subreddit": "sysadmin",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Review lacks actionable insights about Jamf's pricing, usability, features, or comparisons with competitors.",
+        "created": "2024-06-19 15:55:52"
     },
     {
         "author": "skydiveguy",
         "url": "https://reddit.com/r/sysadmin/comments/1dj6efk/major_change_in_company_it_and_suddenly_i_got/l9amv99/",
         "body": "The only issue we have is that every time macOS updates it would break configurations in Jamf. Right now, students can log into iCloud (which we had blocked so they couldn't) which means they can now sign into iMessage and cloud storage and have access to their personal apps and things that we are trying to prevent.  \nI blame Jamf for not getting ahead of this as they clearly know what changes are coming.  \nAnother example is wifi password sharing... Apple introduced it and Jamf never gave us a way to block the end users ability to see the wifi password (we resolved this with RADIUS but still why did they not give us a way to block access?)",
         "subreddit": "sysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": "The review highlights issues with macOS updates breaking configurations in Jamf, allowing students to access restricted services, and the lack of features to prevent certain actions, blaming Jamf for not addressing these concerns proactively.",
+        "created": "2024-06-19 11:47:26"
     },
     {
         "title": "I actually do need this many Macs and screens. I am a Jamf Engineer and manage Macs in the enterprise.",
@@ -245,98 +313,126 @@
         "url": "https://i.redd.it/h9wl7xrvx7kd1.jpeg",
         "subreddit": "macsetups",
         "body": "",
-        "insight": "I'm ready to evaluate the messages. Please provide the first message."
+        "useful": "1",
+        "insight": "Review lacks specific details about Jamf.",
+        "created": "2024-08-22 13:37:50"
     },
     {
         "author": "sohcgt96",
         "url": "https://reddit.com/r/macsetups/comments/1eyjjpl/i_actually_do_need_this_many_macs_and_screens_i/ljfaph4/",
         "body": "Had to be the JAMF admin in my last role, yeah I get it, granted you're probably making much heavier use of it than we did. Was a small environment for the Macs but I had to do the initial rollout and spin up the baseline policies from scratch.",
         "subreddit": "macsetups",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Review lacks actionable insights or relevance.",
+        "created": "2024-08-22 19:04:41"
     },
     {
         "author": "ajpinton",
         "url": "https://reddit.com/r/macsetups/comments/1eyjjpl/i_actually_do_need_this_many_macs_and_screens_i/ljglpso/",
         "body": "I feel this in my soul. Also a JAMF engineer. I have my daily with dual 24\u2019s, two test devices on a peg board and another workspace to test peripherals.",
         "subreddit": "macsetups",
-        "insight": "1"
+        "useful": "1",
+        "insight": " The review lacks any relevant insights about Jamf's pricing, usability, features, or comparisons with competitors.",
+        "created": "2024-08-22 23:23:11"
     },
     {
         "author": "SilvaCyber",
         "url": "https://reddit.com/r/macsetups/comments/1eyjjpl/i_actually_do_need_this_many_macs_and_screens_i/ljeegyn/",
         "body": "Super cool; how do you like it? I\u2019ve always been interested in how Jamf works",
         "subreddit": "macsetups",
-        "insight": "1"
+        "useful": "1",
+        "insight": " Lack of specific feedback on Jamf's functionality or user experience.",
+        "created": "2024-08-22 16:19:49"
     },
     {
         "author": "samstanley7",
         "url": "https://reddit.com/r/macsetups/comments/1eyjjpl/i_actually_do_need_this_many_macs_and_screens_i/ljinygh/",
         "body": "What do you like about Jamf vs something like Kandji or a more universal RMM? Just curious, I\u2019m a Mac guy at home, but I work with pc security products at work and they all seem less user friendly than the Mac products.",
         "subreddit": "macsetups",
-        "insight": "0"
+        "useful": "1",
+        "insight": "Off-topic comparison between Mac and PC security products, lacks specific insights on Jamf's features or usability.",
+        "created": "2024-08-23 09:11:41"
     },
     {
         "author": "MirrorProfessional35",
         "url": "https://reddit.com/r/macsetups/comments/1eyjjpl/i_actually_do_need_this_many_macs_and_screens_i/ljkdmv4/",
         "body": "Hey could you free my jamf managed mac from the organization? (Also jamf) they never got back to me as to how to return the computer, this was years ago",
         "subreddit": "macsetups",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Request to free a Jamf-managed Mac and return it to the organization, with no insights provided on pricing, usability, features, or comparisons with competitors.",
+        "created": "2024-08-23 16:09:17"
     },
     {
         "author": "A-bomb151",
         "url": "https://reddit.com/r/macsetups/comments/1eyjjpl/i_actually_do_need_this_many_macs_and_screens_i/ljedxc4/",
         "body": "I have to wipe Macs constantly to test Jamf zero-touch setup for new OS releases on both Intel and Apple Silicon Macs. I also have a few VMs, but they can't be used with ABM. Hence all the bare metal.",
         "subreddit": "macsetups",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Review focuses on personal testing methods rather than providing insights on pricing, usability, features, or comparisons with competitors.",
+        "created": "2024-08-22 16:16:59"
     },
     {
         "author": "A-bomb151",
         "url": "https://reddit.com/r/macsetups/comments/1eyjjpl/i_actually_do_need_this_many_macs_and_screens_i/ljef1xb/",
         "body": "I love Jamf. I am in it all day. I manage 800 Macs in Jamf, from Honolulu to Manhattan. Jamf does everything we need.",
         "subreddit": "macsetups",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Review lacks actionable insights or relevant information.",
+        "created": "2024-08-22 16:22:48"
     },
     {
         "author": "A-bomb151",
         "url": "https://reddit.com/r/macsetups/comments/1eyjjpl/i_actually_do_need_this_many_macs_and_screens_i/ljjoy62/",
         "body": "Jamf is the most seasoned Mac-first solution out there, IMO. Our parent company uses Intune and Munki but admits they want Jamf. I could see us moving to Intune eventually because my boss is in love with everything Microsoft. He went to Ignite a few years back and MS was all about the Jamf partnership so he was immediately on board. When he got back and brought up Jamf my jaw dropped. I had wanted Jamf for years after using the way underpowered, cross-platform KACE solution we had in place. Like I said in another post here, if I were setting up Mac MDM from scratch, I would choose Kandji. I touch base with them a few times every year with a 'possibly later' stance.",
         "subreddit": "macsetups",
-        "insight": "0"
+        "useful": "1",
+        "insight": " The review lacks actionable insights or relevance to Jamf's pricing, usability, features, or comparisons with competitors.",
+        "created": "2024-08-23 13:57:46"
     },
     {
         "author": "A-bomb151",
         "url": "https://reddit.com/r/macsetups/comments/1eyjjpl/i_actually_do_need_this_many_macs_and_screens_i/ljkf258/",
         "body": "Heh. I don't work for Jamf. You have to have your local Jamf folks or Apple remove it. I think you already know this \ud83d\ude09",
         "subreddit": "macsetups",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Off-topic comment not relevant to evaluating Jamf.",
+        "created": "2024-08-23 16:16:49"
     },
     {
         "author": "The_Real_Meme_Lord_",
         "url": "https://reddit.com/r/macsetups/comments/1eyjjpl/i_actually_do_need_this_many_macs_and_screens_i/ljfxnl6/",
         "body": "Oh that\u2019s super cool! I\u2019m so proud of all the work Kandji has done over the past couple of years, they\u2019re truly giving JAMF a run for their money haha.",
         "subreddit": "macsetups",
-        "insight": "0"
+        "useful": "1",
+        "insight": "Review lacks actionable insights or relevance.",
+        "created": "2024-08-22 21:04:12"
     },
     {
         "author": "Appropriate-Gear-171",
         "url": "https://reddit.com/r/macsetups/comments/1eyjjpl/i_actually_do_need_this_many_macs_and_screens_i/ljip0or/",
         "body": "Dear lord at my organization we used azure for iPhones, AD to deploy the config to the user with a 365 account, Macs on Jamf and iPads on azure again, what a mess",
         "subreddit": "macsetups",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Review lacks actionable insights and relevance.",
+        "created": "2024-08-23 09:23:05"
     },
     {
         "author": "DontWalkRun",
         "url": "https://reddit.com/r/macsetups/comments/1eyjjpl/i_actually_do_need_this_many_macs_and_screens_i/ljhki3n/",
         "body": "I\u2019m not a big user of LinkedIn. What do you mean by subscribe to posts?\n\nMosyle has been pretty good. Affordable. Simple. And good support when needed. I\u2019ve always wanted to delve into Jamf but our situation just doesn\u2019t require that kind of horsepower.\n\nWhat\u2019s your day-to-day like? Do you ever have to get hands on with devices?",
         "subreddit": "macsetups",
-        "insight": "1"
+        "useful": "1",
+        "insight": " The review does not provide relevant insights about Jamf's pricing, usability, features, or comparisons with competitors.",
+        "created": "2024-08-23 03:01:38"
     },
     {
         "author": "A-bomb151",
         "url": "https://reddit.com/r/macsetups/comments/1eyjjpl/i_actually_do_need_this_many_macs_and_screens_i/ljho9na/",
         "body": "I\u2019m not a big LinkedIn user either but I do get a ton of good listings in my e-mail. Pretty much daily. Do a search on LinkedIn and subscribe to daily e-mail alerts for that criteria. \n\nJamf does everything we need but my boss is all about Microsoft so there are some missing things he wants. Password-less is the big one. You can do that now with Intune and PSSO but thankfully he sees the benefit of Jamf Connect. \n\nDay-to-day, I write deployment policies and scripts, and handle a ton of patch management. A lot of the patch management is manual on purpose because we want to hold back versions of Adobe products and/or the titles aren\u2019t supported by Jamf Patch management yet. I usually handle about 35 patch updates weekly. There\u2019s also almost always security stuff that comes my way. They want audits, new policies, software tests, etc. The big thing right now is Zscaler which we\u2019re rolling out once they tell me how to get invisible SSO sign in working. Zscaler seems kinda stumped on the Mac side which amazes me. \n\nThanks for asking \ud83d\ude0a",
         "subreddit": "macsetups",
-        "insight": "0"
+        "useful": "1",
+        "insight": "The review discusses personal experiences with LinkedIn alerts and a comparison between Jamf and Microsoft Intune, mentioning features like password-less authentication and patch management challenges with Adobe products and Zscaler.",
+        "created": "2024-08-23 03:28:03"
     },
     {
         "title": "Jamf vs. Kandji in 2024?",
@@ -344,280 +440,360 @@
         "url": "https://www.reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/",
         "subreddit": "macsysadmin",
         "body": "Currently using Jamf Business and discussions around renewal have begun. I am wondering if it is worth staying on Jamf in 2024 as a Kandji license (w/ liftoff) + a license for a more robust (third-party) EDR than Jamf Protect costs less than a Jamf Business license.\n\nI know Jamf has a more powerful API, but we are a relatively small shop and most Mac administration is currently done via Jamf\u2019s GUI.\n\nAside from that, any pros for Jamf or cons for Kandji, that warrants the difference in price, I should consider before making the change?",
-        "insight": "0"
+        "useful": "0",
+        "insight": "Considering switching from Jamf to Kandji due to cost concerns and exploring the value proposition of each, particularly in terms of API capabilities and ease of use.",
+        "created": "2024-03-25 17:21:31"
     },
     {
         "author": "rightsidedown",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwinnl6/",
         "body": "IMO Jamf is low value unless you are really using it as it's maximum capability in an environment that requires a lot of detailed IT control.  \n\nThis wasn't always the case but products like Mosyle, Kandji, Addigy solve more of the most common issues in mac management at lower price points with more modern methods.\n\nYour issue with changing is going to be just the whole process of unenrolling the devices, then user based enrolling of devices, and handling the loss of control that comes with use based enrollment.",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": "The review mentions that Jamf may not be worth it unless used to its full potential and suggests alternatives like Mosyle, Kandji, and Addigy which offer more common solutions at lower prices, highlighting challenges with device unenrollment and user-based enrollment.",
+        "created": "2024-03-25 17:48:00"
     },
     {
         "author": "ajpinton",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwiqfd7/",
         "body": "JAMF is really the gold standard, for every other solution it\u2019s done to what features you want to give up on. \n\nOne thing to be aware of, switching MDMs is no easy task. It\u2019s basically reprovisioning your entire environment. Or, hands on every device to manually unenroll and reenroll.",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": "General praise for Jamf without specific insights or comparisons to competitors.",
+        "created": "2024-03-25 18:02:59"
     },
     {
         "author": "bwats16",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwiw254/",
         "body": "We like Kandji and are very happy with switching from Jamf. Their auto app patching and user friendly UI (both in the console and on device) is what put it over the top for me.\n\nLiftoff is super nice (we\u2019ve gotten multiple compliments from end users) and we can confidently be zero touch and have a great experience for our employees.\n\nSomething that hasn\u2019t been said but has been my favorite \u201cfeature\u201d of Kandji is their support team. Jamf\u2019s is notoriously bad (they make it up with a great community) but with Kandji, you can open up a live chat in the admin console with an agent and be chatting in < 3min. Any issue, big or small, they are right there to help with.\n\nPlus it\u2019s cheaper lol.\n\nEdit: I also forgot to mention the one thing I miss from Jamf is smart groups.. that is the one thing I really feel like Kandji is lacking. Other than that, they are apples to apples with Kandji taking the slight edge.",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "0",
+        "insight": "Kandji's auto app patching and user-friendly UI, along with excellent support and cost savings, make it a superior choice over Jamf despite lacking smart groups.",
+        "created": "2024-03-25 18:34:08"
     },
     {
         "author": "SubKreature",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwju10b/",
         "body": "Test piloting Kandji currently as a replacement to Jamf.  It has resolved literally every issue we\u2019ve had with Jamf since day 1 of the trial.",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": "Review mentions testing Kandji as a Jamf replacement without providing specific insights on pricing, usability, features, or comparisons with competitors.",
+        "created": "2024-03-25 21:42:22"
     },
     {
         "author": "ObjectiveAthlete2437",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwimm5u/",
         "body": "You can't really scale with Kandji as witnessed with most organisations with a large install base. From the automated remediation perspective, nothing beats Jamf Pro and Jamf Protect, which is fully integrated for sub minute response. Aside from that, Kandji has limited runway in terms of financing and funding from investors. They are literally on a cash burn without any solid plans for the future. I wouldn't bet my career on a company that might go bust anytime soon.",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "0",
+        "insight": "Kandji lacks scalability and automated remediation compared to Jamf Pro and Jamf Protect, with concerns about limited funding and uncertain future.",
+        "created": "2024-03-25 17:42:24"
     },
     {
         "author": "blissed_off",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwiq5gh/",
         "body": "We just  met with Kandji last week. One of our senior engineers seems to think it's miles better than Jamf. I'm kinda staying out of it, since I just started using Jamf a few months ago. But personally I didn't see anything in Kandji that made it worth the switch. That said, I'm definitely going to be looking at the replies to this thread.",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": "Comparison to Kandji without specific insights on features or usability.",
+        "created": "2024-03-25 18:01:27"
     },
     {
         "author": "jaq2",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/lqtqolg/",
         "body": "We've been on JAMF for about 4 years now and the renewal price prompted management to ask us to look for alternatives. One of the execs had been in contact with Kandji already who had been pitching they were a cheaper option so we reached out and setup a trial. I was very clear the only reason we were considering moving was price.\n\nAlthough I was impressed with Kandji and we were able to replicate about 60% of what we use JAMF for in the first week of trail, they still hadn't given us a quote. They had asked if they could see what we were paying for JAMF before quoting us and that seemed a bit shady. Like a plumbing contractor wanting to see your other bids before quoting a job. We figured they had standard pricing, but depending on the number of clients and perhaps multi year contracts they could give us a lower than standard pricing. Well, this morning they finally gave us our quote after we told them we weren't comfortable showing what we were paying for JAMF first. It was more than we currently pay for JAMF AND that included a 20% discount if we signed up quickly.\n\nI can't think of any other company we deal with that tries to price this way.\n\nThey quoted us mid $30,000s for 400 system and that doesn't include their end point protection.\n\nAnyone out there mind sharing what they currently pay for Kandji and how many seats? The sales rep told me they've seen people paying between $4/seat/month for JAMF up to $14/seat/\n\nJamf pro's standard pricing is $7/seat/month right now for just the MDM, so I'm not sure where he's getting numbers higher than that unless that includes extra Jamf services that we don't have and were never part of our conversation.\n\nComments on here seemed mostly positive and everyone seemed to indicate they were substantially less expensive.",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "0",
+        "insight": "Jamf user considering Kandji due to renewal price, impressed with features but hesitant about pricing transparency and received a higher quote than current Jamf pricing with a discount.",
+        "created": "2024-10-07 19:34:13"
     },
     {
         "author": "squuiidy",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwjanm5/",
         "body": "Mosyle is better than Jamf IMO.\nFight me.",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": "Comparison to Mosyle without providing any specific insights or reasons.",
+        "created": "2024-03-25 19:54:47"
     },
     {
         "author": "Zedlav_",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwiy9eu/",
         "body": "We went with Kandji, and so far it\u2019s been ok. The problems we have had are due to not understanding Kandji\u2019s limitations. Also listening to the sales reps saying we are just like Jamf lol. \n\nKandji\u2019s tech support most of them are amazing and are willing to help. You will know when you get someone who is green but normally they have helped and provided support.",
         "subreddit": "macsysadmin",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Review mentions using Kandji instead of Jamf and highlights experiences with tech support.",
+        "created": "2024-03-25 18:46:19"
     },
     {
         "author": "bareimage",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwp632m/",
         "body": "I would suggest using Mosyle, Kanji is very different beast in design. Jamf still relies on open source solutions that are not ideal. Their support is pretty awful, and R&D ia lagging. They still have not implemented modern software update.",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "0",
+        "insight": "Jamf relies on open source solutions, has poor support, and lacks modern software updates.",
+        "created": "2024-03-26 20:45:55"
     },
     {
         "author": "jman9895",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwqmele/",
         "body": "Swapping mdms is a nuisance, assuming you're not using jamf connect another mac-focused mdm like kandji or addigy will do fine.",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": "Review mentions switching between MDM solutions but does not provide insights on pricing, usability, features, or comparisons with competitors.",
+        "created": "2024-03-27 01:58:19"
     },
     {
         "author": "Upper-Bath-86",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kww8i0t/",
         "body": "I think Jamf is the more robust one. We were quite pleased with it until we had to change to a mixed environment and started using VSA, which is good. Just consider what a PITA migrating MDMs is.",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": "Review lacks specific details or insights about Jamf's pricing, usability, features, or comparisons with competitors.",
+        "created": "2024-03-28 01:57:01"
     },
     {
         "author": "bigmadsmolyeet",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwiw2pp/",
         "body": "i wouldn't say it's \"low.\" having jamf is worth it alone in part due to the community. jamfnation + slack, if you ever have any issue with jamf your answer probably already exists somewhere. they're the most popular and established mac mdm. experts and people new to the platform both benefit heavily from this so it's always worth considering. the only real downsides i have with jamf would be their slow rollout of new (non mdm specific) features and ignoring many of the feature requests.",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": " The user praises Jamf's community support and popularity but criticizes the slow rollout of new features and unaddressed feature requests.",
+        "created": "2024-03-25 18:34:14"
     },
     {
         "author": "PancoBenJo",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwmcs8u/",
         "body": "Enrolling in Kandji works actually quite easy with their MigrationAgent. First you have to deploy the MigrationAgent provided from your Kandji CSM to JAMF and deploy it to the devices. Once you unenroll the devices from JAMF, the enduser receives a notification every 5 minutes to enroll their device in Kandji, prompted by the MigrationAgent. AFAIK the MigrationAgent is already included without having to buy it separately. \n\nAll you got to do is deploy the agent, make sure it's on the devices, inform your users about the change. \n\nWe have migrated around 2200 devices from Intune to Kandji last year with this method. \n\nOnly thing that went wrong is that around 80 users didn't bother clicking on the notification (Even though it is appearing every 5 minutes) But those were solved as well after escalating to InfoSec department.",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": " The review discusses the process of migrating devices from JAMF to Kandji using the MigrationAgent, with a mention of successful migration of 2200 devices from Intune to Kandji, but lacks insights on Jamf's pricing, usability, features, or direct comparisons with competitors.",
+        "created": "2024-03-26 10:09:02"
     },
     {
         "author": "bareimage",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/l0zpko6/",
         "body": "Jamf is a standard so is sccm. Who said the standard is good?!",
         "subreddit": "macsysadmin",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Review lacks actionable insights or relevance.",
+        "created": "2024-04-24 03:02:49"
     },
     {
         "author": "XxGet_TriggeredxX",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwjjdo4/",
         "body": "When you say \u201cSmart Groups\u201d are you saying they don\u2019t have any ability for this or yes they have some but more limited than Jamf. \n\nWe use the shit out of smart groups in Jamf from anything like deploying software to {insert_name} smart group to things like {Devices Enrolled Today} or {Newly Enrolled Devices} and particular software or profiles go to those groups.",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": "User discusses the use of Smart Groups in Jamf without providing any actionable insights or comparisons with competitors.",
+        "created": "2024-03-25 20:42:47"
     },
     {
         "author": "AppearanceAgile2575",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwiomi8/",
         "body": "Thank you! Can you provide examples that highlight Kandji\u2019s lack of scalability? Honestly, between that and the latter point, that\u2019s likely enough to sway leadership towards paying the extra/staying with Jamf.\n\nThe automated remediation point is arguable, since onboarding S1, nothing has been flagged in Jamf Protect as it catches and quarantine\u2019s anything beforehand. Though maybe I\u2019m not doing something correctly in Jamf Protect?",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": "Comparison to Kandji's lack of scalability and preference for Jamf due to scalability concerns.",
+        "created": "2024-03-25 17:53:13"
     },
     {
         "author": "ITMule",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/lqtv2ga/",
         "body": "Kandji is famous for providing discounts on first year based on the price each customer is paying for Jamf but raising prices again during renewals. There was a session I guess on JNUC this year about customers who had that experience. \n\nDid you check Mosyle Fuse? Based on the simulator on their website (business.mosyle.com) 400 devices would cost $15k per year and it offers everything you may need (and probably more).",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": "Off-topic discussion about Kandji and Mosyle without relevant insights on Jamf.",
+        "created": "2024-10-07 19:57:40"
     },
     {
         "author": "SubKreature",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwju3cu/",
         "body": "I think Jamf may just be the worst, these days, tbh.",
         "subreddit": "macsysadmin",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Review lacks actionable insights or relevance.",
+        "created": "2024-03-25 21:42:44"
     },
     {
         "author": "AppearanceAgile2575",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwklibd/",
         "body": "Anything you miss from Jamf?",
         "subreddit": "macsysadmin",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Review lacks actionable insights or relevance.",
+        "created": "2024-03-26 00:28:16"
     },
     {
         "author": "AppearanceAgile2575",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwkk2is/",
         "body": "What are some of the limitations you\u2019ve encountered? While Jamf\u2019s vendor support is a coin flip, I like that Jamf has a large community.",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": "The review mentions limitations with vendor support and highlights the benefit of a large community, but lacks specific details on pricing, usability, features, or competitor comparisons.",
+        "created": "2024-03-26 00:19:26"
     },
     {
         "author": "patthew",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwlic19/",
         "body": "FWIW a lot of what you get from the community is fairly universally applicable. Since shifting to Intune I still find myself on jamfnation fairly often, and the macadmins slack has fairly active channels devoted to other MDM platforms.",
         "subreddit": "macsysadmin",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Review lacks specific insights about Jamf's pricing, usability, features, or comparisons with competitors.",
+        "created": "2024-03-26 04:12:53"
     },
     {
         "author": "rightsidedown",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwis0fl/",
         "body": "Hard to say, I think it depends a lot on your specific situation.  Can you get hands on all the devices?  Will your company support you in making the changes in the sense that when you start enrolling and disenrolling that people will coopoerate quickly? You don't want to end up with a 6 month project with laptops out of control because you can't get people to cooperate. If you are confident that you can switch everyone in a week and the change from DEP enroll to use enroll is not a major issue then I think it's worth changing, and the savings are several thousand dollars, then I think it's worth changing.  If you're talking about saving $500, then I doubt it's worth the labor when you consider it across your time and user's time.  \n\nno specific industry regulation will support using jamf IME, it's all basic stuff you do with config profiles, unless you start getting into PCI. However if you are part of a large company where attacks are essentially ongoing you will need more detailed controls and you'll need to create a lot of custom things that scale.  For example, you might need to start forcing users to unput certain things or present selectable options during onboarding, and at that point you are using third party tools where JAMF starts to shine.  If you need to start collecting detailed logs and send those to a SIEM, or if you need to trigger scripts to run on custom events, JAMF is what you need.",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": "The review discusses various considerations for switching to Jamf based on specific company situations and mentions the need for detailed controls and customizations in large companies, but lacks actionable insights or relevance to pricing, usability, features, or competitor comparisons.",
+        "created": "2024-03-25 18:11:43"
     },
     {
         "author": "Alternative_Sense938",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwl3kk6/",
         "body": "We switched from Jamf Cloud with Connect to Kandji two months ago. So far we absolutely love it. To us, Jamf was a toolbox whereas Kandji was ready to use out of the box. We love the layout and readability of the console, even the creature comforts like being able to see details about a blueprint item without having to go to the library whereas Jamf would require you to open another tab to compare two pages. The things visible to the user, such as Passport and the agent, have a much nicer appearance and appear to belong in macOS, unlike Jamf.\n\nWe had our demo environment doing great in one week. Most of our profiles were recreated and configured within a week. We find Passport to be more reliable and user-friendly than Connect. Liftoff has worked perfectly. The user agent does well to inform the user of updates or actions needed.\n\nWe actually migrated at a fast pace. Our Jamf contract was ending two weeks from the day we signed with Kandji, and since they don't let you test the migration tool we risked it.\n\nWe had one major migration hurdle: Jamf was deploying Wi-Fi via a config profile. As soon as Kandji forced Jamf to unenroll a device it would lose the office Wi-Fi connection and the device was stranded because the deletion of the config profile removed the active SSID. To mitigate, we started a temporary Wi-Fi network, pushed it as a script, and then the Kandji migration tool would wait long enough for the device to see the temp network and connect.\n\nWe made it! Before Jamf expired we sent all remaining devices (there weren't many) an MDM unenroll command from Jamf. In Apple Business Manager we pointed all devices to Kandji. Then those devices could do sudo profiles -N to re-enroll based on what Apple Business Manager pointed them to.\n\nKandji's use of rules on blueprint items means we only need a few blueprints. We chose to do one blueprint for production, one for conference room equipment, and one for secured special devices. Other blueprints can be used for testing.\n\nKandji Prism is a new search feature that works well.\n\nIt's nice that Kandji licenses users instead of devices. We can now enroll iPads, iPhones, and Apple TVs along with Macs.\n\nI do have to give Kandji one F grade: You're assigned a migration specialist at the start. This is who provides your custom migration script. In our case the specialist only responded to us about once a day no matter how urgent. They also said more than once that they had added colleagues to our case but we never heard from anyone else. On the flip side, chat support and their documentation has been great.\n\nIf you are looking for something that works well from the start, Kandji is not a bad choice. I'm looking forward to full Platform SSO authentication support next year. (Giving it time in the oven.) Apple is still polishing it and Kandji supports it but we want to let them work any bugs out.",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": " The review discusses the user's positive experience with switching from Jamf to Kandji, highlighting Kandji's user-friendly interface, quick setup, and features like Passport and Liftoff, but lacks direct comparison to Jamf's pricing, usability, features, or competitors.",
+        "created": "2024-03-26 02:23:00"
     },
     {
         "author": "bwats16",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwiv0u2/",
         "body": "We migrated our users from Jamf to Kandji last year and it was very painless. Their team makes the migration pretty easy.\n\nI\u2019m sure there\u2019s a way to trigger it automatically, but with the FileVault encryption escrow, you will likely need to restart the machine. So imo you do want it to be triggered from the end user.",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "0",
+        "insight": "Successful migration from Jamf to Kandji with easy process and potential need for manual trigger for FileVault encryption escrow.",
+        "created": "2024-03-25 18:28:21"
     },
     {
         "author": "bwats16",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwjlfy9/",
         "body": "You can add \u201crules\u201d to try and target specific devices but it\u2019s nothing close to smart groups in Jamf. I would hardly compare the two tbh.\n\nThey just released a new feature (or bought a company, idk) called prism that gives a lot more info on devices. I hope that it unlocks their ability to do something similar to smart groups but who knows.\n\nThey give you access to their API and it apparently gives more power and tools, at least from what I\u2019ve heard. I can\u2019t confirm since I\u2019m a noob when it comes to API stuff. People bring it up in the #kandji slack channel in MacAdmins.",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": "The review discusses the comparison between Jamf and smart groups, mentions a new feature called Prism, and briefly touches on the API without providing specific insights on pricing, usability, features, or competitors.",
+        "created": "2024-03-25 20:54:09"
     },
     {
         "author": "SubKreature",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwklyex/",
         "body": "Their support has been absurdly quick to respond and resolve.  They gotta be sick of me by now, but I\u2019d say 99% of my issues get resolved within 20 minutes of chatting with them.  Their knowledge base is really well written and organized.  No more waiting 3 days for Jamf support to respond on a ticket.  We couldn\u2019t get Jamf to enforce OS updates for the life of us.  Even with the most popular 3rd party workarounds.  It just works in Kandji.  Kandji also keeps a GitHub repository of scripts their staff has developed, and they support those a little more than a Jamf would with a 3rd party script.",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": " The review praises Kandji's quick support and knowledge base, highlighting issues with Jamf's support and OS update enforcement, as well as Kandji's script repository.",
+        "created": "2024-03-26 00:31:02"
     },
     {
         "author": "wpm",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwiq06r/",
         "body": "If S1 is catching and quarantining malware before Jamf Protect can get to it, then yeah, you're not going to see anything getting tripped in Threat Prevention Alerts. Your plan might also have Threat Prevention set to do nothing too, which is a solid plan if you have S1 installed doing that. You don't want Protect and S1 fighting over who gets to quarantine something. \n\nI'm not familiar with S1 but what does it do aside from execution based quarantining? Protect's built-in and custom analytics can watch for whatever sort of activity you want (launch daemons being installed, SSH behaviors, etc). Once one of those analytics is tripped, it can put a computer into a Jamf Pro smart group and call a custom trigger immediately to put remediation actions into effect.",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": "The review discusses the interaction between S1 and Jamf Protect but does not provide insights on pricing, usability, features, or competitor comparisons.",
+        "created": "2024-03-25 18:00:40"
     },
     {
         "author": "blissed_off",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwitp3p/",
         "body": "OS patching is the biggest one, and that I agree with. As someone who's been doing windows administration for decades, it's kinda wild that Jamf doesn't do that.\n\nThe other one has to do with some kind of kludge we have for certain things. Of the top of my head I can't remember what it is.",
         "subreddit": "macsysadmin",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Review lacks specific details on pricing, usability, features, or competitor comparisons.",
+        "created": "2024-03-25 18:21:02"
     },
     {
         "author": "The_Real_Meme_Lord_",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwkrqu2/",
         "body": "Honestly no, I was able to build Kandji from the ground up though so I was targeting certain pain points on JAMF when pitching Kandji. \n\nAll in all it\u2019s a very good system with a lot of flexibility. It",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": "Review lacks actionable insights or relevance.",
+        "created": "2024-03-26 01:07:15"
     },
     {
         "author": "AppearanceAgile2575",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwiwb68/",
         "body": "Thank you for the detail! Do you know where I could find more information on having scripts run based on custom events? If we end up staying with Jamf, I want to be able to get as much out of it as possible.",
         "subreddit": "macsysadmin",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Review lacks actionable insights and does not mention pricing, usability, features, or comparisons with competitors.",
+        "created": "2024-03-25 18:35:31"
     },
     {
         "author": "Working_Pin_4432",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kz14j1y/",
         "body": "FWIW Jamf would have given you a renewal extension if you asked",
         "subreddit": "macsysadmin",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Review lacks actionable insights or relevance.",
+        "created": "2024-04-11 04:24:11"
     },
     {
         "author": "AppearanceAgile2575",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwiup1c/",
         "body": "If I\u2019m not mistaken, it tracks the behavior of all processes executing on the system and uses behavioral AI (vs. signatures) to flag and quarantine malicious processes. \n\nThe automatic assigning of Jamf Pro smart groups seems like a great idea, but I currently can\u2019t think of a reason for creating a rule/trigger that would assign someone to a smart group to then apply a policy or configuration profile for remediation, as I could apply the policy or configuration profile directly with the same foresight, preventing the event/incident altogether. Potentially automatically isolating a compromised device from a network, though that would not be applicable for my situation (cloud-based environment), and ideally, the EDR would quarantine the malicious file or process before executing and compromising the device. Do you have other examples of where this would be used?",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": "The review discusses the functionality of Jamf Pro smart groups and questions the necessity of assigning users to smart groups for policy application, focusing on the preference for direct policy application to prevent incidents, with a mention of potential network isolation for compromised devices in non-cloud environments.",
+        "created": "2024-03-25 18:26:32"
     },
     {
         "author": "drkstar1982",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwjapvx/",
         "body": "Just fyi on the patching part. JAMF Pro cloud does have the ability to do patching via DDM. I have about 1260 users worldwide and our first big test of DDM got us to 99% compliance within 24 hours of our schedule update deadline. Which is a miracle.",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "0",
+        "insight": " JAMF Pro cloud's DDM feature enabled 99% patch compliance within 24 hours for 1260 users, showcasing its efficiency in patch management.",
+        "created": "2024-03-25 19:55:07"
     },
     {
         "author": "rightsidedown",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwj5x36/",
         "body": "I don't have anything.  This is really something where the large jamf community and chatgpt comes in. Someone somewhere has probably scripted what you are looking for, so you just accumulate that knowledge over time.  I've never found a single comprehensive resource.  So just community boards and use chatgpt for help on getting starter code that is specific to your issue.",
         "subreddit": "macsysadmin",
-        "insight": "1"
+        "useful": "1",
+        "insight": " Review lacks actionable insights or relevance.",
+        "created": "2024-03-25 19:28:37"
     },
     {
         "author": "bwats16",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwknfcd/",
         "body": "Agreed.. our reseller CDW does some discounts so it lessens the burden lol\n\nI have to think though that Kandji is trying to get smart groups figured out. If they do, I don\u2019t see why anyone would stay with Jamf over Kandji.",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": "Off-topic discussion about reseller discounts and Kandji's potential feature improvement without providing specific insights on Jamf.",
+        "created": "2024-03-26 00:40:07"
     },
     {
         "author": "krondel",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwmxe64/",
         "body": "This is the type of workflow you would use to prevent an infected system from connecting to cloud-based services:\n\nhttps://trusted.jamf.com/docs/macos-ztna-risk-signaling",
         "subreddit": "macsysadmin",
-        "insight": "1"
+        "useful": "1",
+        "insight": "The review does not mention any relevant insights about Jamf's pricing, usability, features, or comparisons with competitors.",
+        "created": "2024-03-26 13:10:55"
     },
     {
         "author": "AppearanceAgile2575",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwklbs8/",
         "body": "Is that for the OS or overall patching? If the latter, do you have a guide for this? We use SUPERMAN for OS patching, but still don\u2019t have a good method of automatically patching other software via Jamf which has been our biggest pain point. One of the biggest pros for Kandji so far is the automated patching.",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "0",
+        "insight": "Jamf lacks automated patching for third-party software, unlike Kandji which offers automated patching.",
+        "created": "2024-03-26 00:27:09"
     },
     {
         "author": "drkstar1982",
         "url": "https://reddit.com/r/macsysadmin/comments/1bnj9fv/jamf_vs_kandji_in_2024/kwl7bex/",
         "body": "Its for the OS, we have been using the JAMF catalog with decent results for some time to patch 3rd party apps including Adobe ones. The only thing we dont patch that way is Chrome.\n\n&#x200B;\n\nhttps://learn.jamf.com/en-US/bundle/jamf-pro-documentation-current/page/Declarative\\_Device\\_Management.html",
         "subreddit": "macsysadmin",
-        "insight": "0"
+        "useful": "1",
+        "insight": "Review discusses using Jamf for patching third-party apps but does not provide insights on pricing, usability, features, or comparisons with competitors.",
+        "created": "2024-03-26 02:48:14"
     },
     {
         "title": "I use a MacBook at work. Updated MacOS and was signed out of iCloud. You can't reset the password (in the same day) without having access to or buying a second Apple device. This is the dumbest shit I've seen in a while. ",
@@ -625,20 +801,26 @@
         "url": "https://i.redd.it/gdulmjbj870d1.jpeg",
         "subreddit": "LinusTechTips",
         "body": "",
-        "insight": "I'm ready to help. What is the message you'd like me to evaluate?"
+        "useful": "1",
+        "insight": "Review lacks specific details or insights about Jamf.",
+        "created": "2024-05-13 13:53:09"
     },
     {
         "author": "waka_flocculonodular",
         "url": "https://reddit.com/r/LinusTechTips/comments/1cqzv2h/i_use_a_macbook_at_work_updated_macos_and_was/l3vh96l/",
         "body": "Exactly. JAMF is there for a reason.",
         "subreddit": "LinusTechTips",
-        "insight": "1"
+        "useful": "1",
+        "insight": "Review lacks actionable insights or relevance.",
+        "created": "2024-05-13 16:55:31"
     },
     {
         "author": "le-clandestin",
         "url": "https://reddit.com/r/LinusTechTips/comments/1cqzv2h/i_use_a_macbook_at_work_updated_macos_and_was/l3vj33i/",
         "body": " We use it with Intune, It's a mess. JAMF: Just Another Mac Failure.",
         "subreddit": "LinusTechTips",
-        "insight": "0"
+        "useful": "1",
+        "insight": "Review lacks actionable insights or relevance.",
+        "created": "2024-05-13 17:06:01"
     }
 ]
